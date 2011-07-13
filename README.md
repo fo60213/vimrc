@@ -61,8 +61,6 @@ PLUGINS
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234): Maintains a history of previous yanks, changes and deletes 
   
   `:help yankring` to see more info.
-
-* [VisIncr](http://www.vim.org/scripts/script.php?script_id=670): Produce increasing/decreasing columns of numbers, dates, or daynames.
   
 * [Cute Error Marker](http://www.vim.org/scripts/script.php?script_id=2653): showing error and warning icons on line.
   
@@ -96,6 +94,6 @@ Other good references
 What I modified
 ---------------
 
-* remove command-t plug-in
+* remove Command-T, Vislncr plug-in
 * add vim-ruby plug-in
 * add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end"
