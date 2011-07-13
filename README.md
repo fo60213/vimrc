@@ -2,7 +2,9 @@ vgod's vimrc
 ============
 Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
-Fork me on GITHUB  https://github.com/vgod/vimrc.
+Modifier: maso (fo60213)
+
+Fork me on GITHUB  https://github.com/fo60213/vimrc.
 
 HOW TO INSTALL
 --------------
@@ -16,20 +18,14 @@ HOW TO INSTALL
 2. Install ~/.vimrc and ~/.gvimrc
 
         $ ./install-vimrc.sh
-
-3. (Optional, if you want Command-T) Compile the Command-T plugin
-
-        $ cd .vim/bundle/command-t/ruby/command-t
-        $ ruby extconf.rb
-        $ make
   
 UPGRADE PLUGIN BUNDLES
 ----------------------
 
 All plugins (except vim-latex) were checked out as git submodules, 
-which can be upgraded with `git pull`. For example, to upgrade Command-T 
+which can be upgraded with `git pull`. For example, to upgrade Nerd Tree 
 
-     $ cd ~/.vim/bundle/command-t
+     $ cd ~/.vim/bundle/nerdtree
      $ git pull
 
 HOW TO USE
@@ -56,8 +52,6 @@ PLUGINS
 
 * [xmledit](http://www.vim.org/scripts/script.php?script_id=301): XML/HTML tags will be completed automatically.
 
-* [Command-T](https://github.com/wincent/Command-T): open and navigate between files with `cmd-t`.
-  
 * [SuperTab](http://www.vim.org/scripts/script.php?script_id=1643): Do all your insert-mode completion with Tab.
 
 * [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): TextMate-style snippets for Vim
@@ -95,3 +89,8 @@ Other good references
 
 * http://amix.dk/vim/vimrc.html
 * http://spf13.com/post/perfect-vimrc-vim-config-file
+
+What I modified
+---------------
+
+* remove command-t plug-in

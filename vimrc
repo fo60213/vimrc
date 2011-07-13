@@ -291,9 +291,5 @@ if !has("gui_running")
 endif
 
 
-
-" --- Command-T
-let g:CommandTMaxHeight = 15
-
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
