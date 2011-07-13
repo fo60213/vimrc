@@ -22,7 +22,7 @@ HOW TO INSTALL
 UPGRADE PLUGIN BUNDLES
 ----------------------
 
-All plugins (except vim-latex) were checked out as git submodules, 
+All plugins (except vim-latex, matlab-colour) were checked out as git submodules, 
 which can be upgraded with `git pull`. For example, to upgrade Nerd Tree 
 
      $ cd ~/.vim/bundle/nerdtree
@@ -77,6 +77,8 @@ PLUGINS
 
 * [Vim-Ruby](https://github.com/vim-ruby): vim configuration files to help you to programming with Ruby.
 
+* [Matlab-colour](http://www.mathworks.com/matlabcentral/fileexchange/28240-highlighting-matlab-files-in-vim): matlab syntax highlight, indent, and many useful things developed by [Yaroslav](http://www.mathworks.com/matlabcentral/fileexchange/authors/62644)
+
 Language specific supports
 --------------------------
 
@@ -96,3 +98,4 @@ What I modified
 
 * remove command-t plug-in
 * add vim-ruby plug-in
+* add matlab-colour plug-in
