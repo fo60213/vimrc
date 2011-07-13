@@ -1,6 +1,6 @@
-vgod's vimrc
+maso's vimrc
 ============
-Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
+Original Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
 
 Modifier: maso (fo60213)
 
@@ -11,7 +11,7 @@ HOW TO INSTALL
 
 1. Check out from github
 
-        $ git clone https://github.com/vgod/vimrc ~/.vim
+        $ git clone https://github.com/fo60213/vimrc ~/.vim
         $ cd ~/.vim
         $ git submodule update --init
 
@@ -75,13 +75,14 @@ PLUGINS
 
 * [JavaComplete](http://www.vim.org/scripts/script.php?script_id=1785): Java Omni-completion.
 
+* [Vim-Ruby](https://github.com/vim-ruby): vim configuration files to help you to programming with Ruby.
 
 Language specific supports
 --------------------------
 
 * Latex: Read `:help latex-suite.txt`
 * Restructured Text: `ctrl-u 1~5` inserts Part/Chapter/Section headers
-* HTML, Javascript, Python, CSS, C, C++, Java: use `TAB` to do omni-completion.
+* HTML, Javascript, Python, CSS, C, C++, Java, Ruby: use `TAB` to do omni-completion.
 * HTML/XML: End tags are automatically completed after typing a begin tag. (Typing > twice pushes the end tag to a new line.)
 
 Other good references
@@ -94,3 +95,4 @@ What I modified
 ---------------
 
 * remove command-t plug-in
+* add vim-ruby plug-in
