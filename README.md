@@ -98,4 +98,4 @@ What I modified
 
 * remove command-t plug-in
 * add vim-ruby plug-in
-* add matlab-colour plug-in
+* add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end"
