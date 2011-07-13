@@ -733,7 +733,7 @@ if version >= 508 || !exists("did_matlab_syntax_inits")
    " ... Functions and Statements ...
    HiLink matlabWord			Normal		" YD
    HiLink matlabStatement		Statement
-   HiLink matlabFunction		Statement
+   HiLink matlabFunction		Define
    "
    HiLink matlabScope			Keyword		" YD
    HiLink matlabImplicit		matlabStatement
@@ -769,7 +769,7 @@ if version >= 508 || !exists("did_matlab_syntax_inits")
    HiLink matlabClassAttribute		Boolean		" YD
 
    " ... End Definitions ...
-   HiLink matlabProceduralEnd		Statement
+   HiLink matlabProceduralEnd		Define
    HiLink matlabIndexEnd		Identifier	" YD
    HiLink matlabOperatorEnd		Function	" YD
 
