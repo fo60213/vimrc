@@ -77,6 +77,8 @@ PLUGINS
 
 * [Matlab-colour](http://www.mathworks.com/matlabcentral/fileexchange/28240-highlighting-matlab-files-in-vim): matlab syntax highlight, indent, and many useful things developed by [Yaroslav](http://www.mathworks.com/matlabcentral/fileexchange/authors/62644)
 
+* [Matlab-Snippets](https://github.com/fo60213/matlab-snippets): matlab snippets which is original from [matlab-tmbundle](https://github.com/textmate/matlab.tmbundle).
+
 Language specific supports
 --------------------------
 
@@ -97,3 +99,4 @@ What I modified
 * remove Command-T, Vislncr plug-in
 * add vim-ruby plug-in
 * add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end"
+* add matlab-snippets
