@@ -100,3 +100,5 @@ What I modified
 * add vim-ruby plug-in
 * add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end"
 * add matlab-snippets
+* add text width restriction to 80
+* set SuperTab's function to default <c-p> 
