@@ -98,7 +98,7 @@ What I modified
 
 * remove Command-T, Vislncr plug-in
 * add vim-ruby plug-in
-* add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end"
+* add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end", and change its newline character to Unix style
 * add matlab-snippets
 * add text width restriction to 80
-* set SuperTab's function to default <c-p> 
+* set SuperTab's function to default (C-P)
