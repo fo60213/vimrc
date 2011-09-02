@@ -17,6 +17,7 @@ set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set tw=80		" set text width = 80 char width
+set nu		" show the number of line
 
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
