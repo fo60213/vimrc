@@ -62,8 +62,6 @@ PLUGINS
   
   `:help yankring` to see more info.
   
-* [Cute Error Marker](http://www.vim.org/scripts/script.php?script_id=2653): showing error and warning icons on line.
-  
    Note: MacVim users need to enable "Use experimental renderer" to see
    graphical icons.
 
@@ -96,9 +94,11 @@ Other good references
 What I modified
 ---------------
 
-* remove Command-T, Vislncr plug-in
+* remove Command-T, Vislncr, CuteErrorMarker plug-in
 * add vim-ruby plug-in
 * add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end", and change its newline character to Unix style
 * add matlab-snippets
 * add text width restriction to 80
 * set SuperTab's function to default (C-P)
+* set showing number of line(`set nu`) defaultly
+* change default gui mode colorscheme with koehler
