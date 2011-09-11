@@ -98,7 +98,8 @@ What I modified
 * add vim-ruby plug-in
 * add matlab-colour plug-in, and change color of fucntion's "end" to let it be different with loop's "end", and change its newline character to Unix style
 * add matlab-snippets
-* add text width restriction to 80
+* set text width restriction to 80 and set width of window to 90
 * set SuperTab's function to default (C-P)
 * set showing number of line(`set nu`) defaultly
 * change default gui mode colorscheme with koehler
+* set guifont = DejaVu Sans Mono for non-Mac OS
