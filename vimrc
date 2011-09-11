@@ -32,11 +32,16 @@ syntax on		" syntax highlight
 set hlsearch		" search highlighting
 
 if has("gui_running")	" GUI color and font settings
-  set guifont=Osaka-Mono:h20
+  if has('mac')
+    set guifont=Osaka-Mono:h20
+  else
+    set guifont=DejaVu\ Sans\ Mono\ 14
+  endif
   set background=dark 
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
   colors koehler
+  set columns=90
 else
 " terminal color settings
   colors vgod
