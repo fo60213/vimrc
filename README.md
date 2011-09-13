@@ -103,3 +103,4 @@ What I modified
 * set showing number of line(`set nu`) defaultly
 * change default gui mode colorscheme with koehler
 * set guifont = DejaVu Sans Mono for non-Mac OS
+* set colorcolumn=81 to show the limit of text width

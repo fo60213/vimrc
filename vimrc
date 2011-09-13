@@ -42,6 +42,7 @@ if has("gui_running")	" GUI color and font settings
   set cursorline        " highlight current line
   colors koehler
   set columns=90
+  set colorcolumn=81
 else
 " terminal color settings
   colors vgod
